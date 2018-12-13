@@ -7,7 +7,7 @@ import com.gaocegege.scrala.core.spider.impl.DefaultSpider
   * Created by xxh on 18-11-27.
   */
 class MMJPGSpider extends DefaultSpider{
-  override def startUrl: List[String] = (2 to 103 )List("http://www.mmjpg.com/")
+  override def startUrl: List[String] = /*(2 to 103 )*/List("http://www.mmjpg.com/")
 
   override def parse(response: HttpResponse): Unit = {
     val links = (response getContentParser) select ("div[class=pic]") select("a")

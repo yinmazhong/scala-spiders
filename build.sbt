@@ -2,7 +2,7 @@ name := "scala-spiders"
 
 version := "1.0"
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.11.1"
 
 
 resolvers += "jitpack" at "https://jitpack.io"
